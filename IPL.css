@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E3FDFD;
+}
+h1,#teamwon { 
+    text-align: center;
+}
+.container {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+#Team {
+    display: flex; justify-content: space-around;
+}
+#logo {
+    display: flex; justify-content: space-around;
+}
+.Point {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px black;  
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead {
+    background-color: aqua;
+}
+tr:nth-child(2n) {
+    background-color: #CBF1F5;
+}
